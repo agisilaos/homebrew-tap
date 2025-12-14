@@ -1,16 +1,16 @@
 class Homepodctl < Formula
   desc "macOS CLI for Apple Music + HomePod control"
   homepage "https://github.com/agisilaos/homepodctl"
-  version "0.1.0"
+  version "0.1.1"
 
   on_macos do
     on_arm do
-      url "https://github.com/agisilaos/homepodctl/releases/download/v0.1.0/homepodctl_v0.1.0_darwin_arm64.tar.gz"
-      sha256 "8aee44d345070663d5a7bf2e5f09f10d935772c85425ed6537674616a5827c8e"
+      url "https://github.com/agisilaos/homepodctl/releases/download/v0.1.1/homepodctl_v0.1.1_darwin_arm64.tar.gz"
+      sha256 "bc3e1f6d88967add0378588780ba7b5597667052755e05402a935870422ea9b0"
     end
     on_intel do
-      url "https://github.com/agisilaos/homepodctl/releases/download/v0.1.0/homepodctl_v0.1.0_darwin_amd64.tar.gz"
-      sha256 "83609b476c6ef180c0cc1f96fb8d7df9929c7ee3579afe0b950f82a941cd9a0a"
+      url "https://github.com/agisilaos/homepodctl/releases/download/v0.1.1/homepodctl_v0.1.1_darwin_amd64.tar.gz"
+      sha256 "492e2d84d7bc75a343d77e3ed766529bfbc4c86a50468a894985c43644a60896"
     end
   end
 
