@@ -1,16 +1,16 @@
 class Pocketcastsctl < Formula
   desc "macOS CLI for Pocket Casts Web Player control"
   homepage "https://github.com/agisilaos/pocketcastsctl"
-  version "0.1.0"
+  version "0.1.1"
 
   on_macos do
     on_arm do
-      url "https://github.com/agisilaos/pocketcastsctl/releases/download/v0.1.0/pocketcastsctl_v0.1.0_darwin_arm64.tar.gz"
-      sha256 "26cee048be267a0b9084766f16cc7f51020aa68f88962b86d5ec2041297b5b14"
+      url "https://github.com/agisilaos/pocketcastsctl/releases/download/v0.1.1/pocketcastsctl_v0.1.1_darwin_arm64.tar.gz"
+      sha256 "d468e5fc5e1ebc4100f6ad68b25fbb046252e7b9d1481b9bf2c8e8e87206d538"
     end
     on_intel do
-      url "https://github.com/agisilaos/pocketcastsctl/releases/download/v0.1.0/pocketcastsctl_v0.1.0_darwin_amd64.tar.gz"
-      sha256 "1eb1c1bb42e8f939032dfd3f285daccf1548deda74fa68e1ddf0dee24995e902"
+      url "https://github.com/agisilaos/pocketcastsctl/releases/download/v0.1.1/pocketcastsctl_v0.1.1_darwin_amd64.tar.gz"
+      sha256 "3dd08a4c72151ccea46e5c1d32ac97ffc59b5276fb6c328f0cda1d76a3980cba"
     end
   end
 
