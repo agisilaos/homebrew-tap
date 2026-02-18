@@ -1,16 +1,16 @@
 class Acal < Formula
   desc "Apple Calendar CLI for terminal workflows and agents"
   homepage "https://github.com/agisilaos/acal"
-  version "0.1.2"
+  version "0.1.3"
 
   on_macos do
     on_arm do
-      url "https://github.com/agisilaos/acal/releases/download/v0.1.2/acal_v0.1.2_darwin_arm64.tar.gz"
-      sha256 "7ce41dc3dfdf7caac5c17cf5b0fff93f534bf7e603e222ce07a9e08489754e3b"
+      url "https://github.com/agisilaos/acal/releases/download/v0.1.3/acal_v0.1.3_darwin_arm64.tar.gz"
+      sha256 "328d114341ee4ccefeab6317d141af463743632c676050cf1c531807ac000f98"
     end
     on_intel do
-      url "https://github.com/agisilaos/acal/releases/download/v0.1.2/acal_v0.1.2_darwin_amd64.tar.gz"
-      sha256 "e6b7214d758736be51873ee08c3cce47941728ca1404c2e6261b6ccb81c39df4"
+      url "https://github.com/agisilaos/acal/releases/download/v0.1.3/acal_v0.1.3_darwin_amd64.tar.gz"
+      sha256 "649f65c52c7cf83f532b6a22b4c28725f894a3870b6ddd705de8d69ba9917e4d"
     end
   end
 
