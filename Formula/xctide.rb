@@ -2,15 +2,15 @@ class Xctide < Formula
   desc "xctide command-line tool"
   homepage "https://github.com/agisilaos/xctide"
   license "MIT"
-  version "0.2.1"
+  version "0.2.2"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/agisilaos/xctide/releases/download/v0.2.1/xctide_0.2.1_darwin_arm64.tar.gz"
-      sha256 "13d630d1a2b94549f719a6cb8294eba25360c33ce182a4f064c9f1d1c3f1683d"
+      url "https://github.com/agisilaos/xctide/releases/download/v0.2.2/xctide_0.2.2_darwin_arm64.tar.gz"
+      sha256 "2a083a19bcc83bb8317391ea34e296ea303b3f2639e27cdd7dc9dc956a073657"
     else
-      url "https://github.com/agisilaos/xctide/releases/download/v0.2.1/xctide_0.2.1_darwin_amd64.tar.gz"
-      sha256 "a020bca2c41614f9cf8d21636a6f48228aff493f9c7fe5d6347810c04a506c50"
+      url "https://github.com/agisilaos/xctide/releases/download/v0.2.2/xctide_0.2.2_darwin_amd64.tar.gz"
+      sha256 "907a4d4213d049c5a03ed714ebc54b4c1e4b76407eea80dd423c89bc83f255a7"
     end
   end
 
