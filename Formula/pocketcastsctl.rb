@@ -1,16 +1,16 @@
 class Pocketcastsctl < Formula
   desc "macOS CLI for Pocket Casts Web Player control"
   homepage "https://github.com/agisilaos/pocketcastsctl"
-  version "0.1.5"
+  license "MIT"
+  version "0.1.6"
 
   on_macos do
-    on_arm do
-      url "https://github.com/agisilaos/pocketcastsctl/releases/download/v0.1.5/pocketcastsctl_v0.1.5_darwin_arm64.tar.gz"
-      sha256 "aaa96838320a9b530719179684fe67048cf7cf5e386e1b56a0e6c712e8997113"
-    end
-    on_intel do
-      url "https://github.com/agisilaos/pocketcastsctl/releases/download/v0.1.5/pocketcastsctl_v0.1.5_darwin_amd64.tar.gz"
-      sha256 "f9c9ff1b7aac5c5963824f8c709b31d8b5c495988c93d402a1484a373e6231d2"
+    if Hardware::CPU.arm?
+      url "https://github.com/agisilaos/pocketcastsctl/releases/download/v0.1.6/pocketcastsctl_0.1.6_darwin_arm64.tar.gz"
+      sha256 "559638226169f039761f0b915da3be14cb305877d27b57281d91be2148dae8e8"
+    else
+      url "https://github.com/agisilaos/pocketcastsctl/releases/download/v0.1.6/pocketcastsctl_0.1.6_darwin_amd64.tar.gz"
+      sha256 "d7077168f936dcc71f72a9754e9cf32875cff3d6a614b4f7bdb112dfd3f251fb"
     end
   end
 
@@ -19,6 +19,6 @@ class Pocketcastsctl < Formula
   end
 
   test do
-    system "#{bin}/pocketcastsctl", "version"
+    shell_output("#{bin}/pocketcastsctl version")
   end
 end
