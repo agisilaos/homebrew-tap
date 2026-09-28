@@ -2,15 +2,15 @@ class TodoistCli < Formula
   desc "Agentic CLI for Todoist"
   homepage "https://github.com/agisilaos/todoist-cli"
   license "MIT"
-  version "0.8.0"
+  version "0.9.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/agisilaos/todoist-cli/releases/download/v0.8.0/todoist-cli_0.8.0_darwin_arm64.tar.gz"
-      sha256 "b04bfae517bf02e22b19920e9183a007fc32f2d187e661923f2d6c587f43d4f2"
+      url "https://github.com/agisilaos/todoist-cli/releases/download/v0.9.0/todoist-cli_0.9.0_darwin_arm64.tar.gz"
+      sha256 "7eb01c5c3c9f8924860d8947867fda030358b206af70114a3d2e00f0cc8644fe"
     else
-      url "https://github.com/agisilaos/todoist-cli/releases/download/v0.8.0/todoist-cli_0.8.0_darwin_amd64.tar.gz"
-      sha256 "6ecf639e15fd9e9457751d43f0d588e7bdf241ab60d7e4bc018743c6472c0c54"
+      url "https://github.com/agisilaos/todoist-cli/releases/download/v0.9.0/todoist-cli_0.9.0_darwin_amd64.tar.gz"
+      sha256 "7dcb18aed3792f1440e8cc04f7d44f254e6537c931bbfd6fc1bae0b2edb240d6"
     end
   end
 
